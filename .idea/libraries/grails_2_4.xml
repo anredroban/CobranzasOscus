@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="grails-2.4">
+    <ANNOTATIONS>
+      <root url="file://D:/grails-2.4.4" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://D:/grails-2.4.4" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://D:/grails-2.4.4" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://D:/grails-2.4.4" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://D:/grails-2.4.4" />
+    </SOURCES>
+    <jarDirectory url="file://D:/grails-2.4.4" recursive="false" />
+    <jarDirectory url="file://D:/grails-2.4.4" recursive="false" type="SOURCES" />
+  </library>
+</component>
