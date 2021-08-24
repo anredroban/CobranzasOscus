@@ -32,6 +32,8 @@ class FuncionesAjaxController {
         render disponibles
     }
 
+
+    /**Función para calcular el numero de asignaciones**/
     def calcularDisponiblesAsignar(){
         String nombreBase = params.nombreBase
         String tipoRegistros = params.tipoRegistros
