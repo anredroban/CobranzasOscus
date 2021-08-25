@@ -248,6 +248,7 @@ class GestionController {
 			cliente.celular = params.celular
 			cliente.estadoNivel4 = params.estadoNivel4
 			cliente.plazoGestion = params.plazoGestion
+
 		}
 
 		if(objSubestadoGestion.type.equalsIgnoreCase("Condonacion")){
@@ -279,6 +280,7 @@ class GestionController {
 
 
 		cliente.estadoGestion = estadoGestion.nombre
+		cliente.retroalimentacion = params.retroalimentacion
 
 		cliente.subestadoGestion = objSubestadoGestion
 		if (params.subSubStatus != ""){

@@ -917,6 +917,12 @@ function validateManagementData() {
                     return
                 }
             }
+
+            if ($("#retroalimentacion").val() === "") {
+                alert("Campo retroalimentación vacio");
+                $isValid = false;
+                return
+            }
         }
     }
 

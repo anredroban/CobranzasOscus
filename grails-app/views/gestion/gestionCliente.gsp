@@ -852,6 +852,13 @@
 
 			</div>--%>
 		</div>
+		<div class="col-lg-4 col-md-6 col-xs-12 form-group">
+			<label>Retroalimentación</label>
+			<span class="required-indicator">*</span>
+			<g:select class="form-control" name="retroalimentacion" id="retroalimentacion" from="${['SI':'SI', 'NO':'NO']}" optionKey="key"
+					  optionValue="value"
+					  noSelection="${['': '-- Seleccione --']}" />
+		</div>
 	</div>
 
 	<div id="divScriptFallecidoMuerteNatural" style="border-radius: 30px" class="panel panel-default col-lg-12 col-md-12 col-xs-12">

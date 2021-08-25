@@ -217,6 +217,7 @@ class Clientes {
 	String deudaVencida
 	String sobregiro
 	String numeroPagosVencidos
+	String retroalimentacion
 
 
 	static constraints = {
@@ -339,6 +340,7 @@ class Clientes {
 		dias_vencidos2 nullable: true
 		estadoNivel4 nullable: true
 		plazoGestion nullable: true
+		retroalimentacion nullable: true
 
 		provinciaGestion nullable: true
 		ciudadGestion nullable: true
